@@ -1,29 +1,75 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.cantainer{
+
+.cantainer {
     background-image: url("./../img/images/travelhome.jpg");
-     height: 100vh;
-     width: 100%;
-     background-size:cover;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
 
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    
+
 }
-.link-homepage{
+
+.link-homepage {
     margin: 20px;
     font-size: 20px;
     font-weight: bold;
     color: #faf7f7;
     text-decoration: none;
 }
-.btn-login{
+
+.btn-login {
     border-radius: 20px;
     padding: 7px;
     border: none;
+}
+
+.text-home {
+    position: relative;
+    top: 170px;
+    left: 350px;
+    color: rgb(253, 254, 255);
+    font-size: 50px;
+}
+
+.search-bar {
+    position: relative;
+    top: 180px;
+    left: 280px;
+    width: 500px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    padding: 2px;
+}
+
+.search-btn {
+    position: relative;
+    top: 180px;
+    left: 300px;
+    height: 32px;
+    padding: 6px;
+    width: 100px;
+    background-color: rgb(14, 141, 14);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+
+}
+.travel-text{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top:180px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
