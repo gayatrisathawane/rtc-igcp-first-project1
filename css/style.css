@@ -20,12 +20,15 @@
 
 .link-homepage {
     margin: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: #faf7f7;
     text-decoration: none;
 }
+.link-homepage:hover{
+    color: rgb(0, 249, 0);
 
+}
 .btn-login {
     border-radius: 20px;
     padding: 7px;
@@ -37,7 +40,7 @@
     top: 170px;
     left: 350px;
     color: rgb(253, 254, 255);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .search-bar {
@@ -72,4 +75,47 @@
     font-size: 20px;
     padding-left: 80px;
     padding-right: 80px;
+}
+.famous-place{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.place-card{
+    width: 260px;
+    margin-top: 40px;
+    
+}
+.places{
+    box-shadow: 0px 0px 5px rgb(135, 251, 147);
+    margin-top: 10px;
+    height:400px;
+    
+}
+.place-heading{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(10, 127, 10);
+   
+}
+.places-img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(166, 232, 166);
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgb(171, 243, 171);
+}
+.places-img:hover{
+    width: 350px;
+    height: 350px;
+    border: 3px dashed rgb(97, 244, 97);
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px rgb(128, 238, 128);
+    transition: 3s;
+}
+.placename{
+    text-align: center;
 }
