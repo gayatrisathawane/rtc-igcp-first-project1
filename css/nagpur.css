@@ -1,0 +1,89 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+.container{
+    /* background-image: url("./../img/nagpurimg/nagpurbg.png"); */
+    height:100vh;
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+.img-nagpur{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 550px;
+    /* border: 3px solid rgb(27, 213, 27); */
+    box-shadow: 0px 0px 3px 2px rgb(26, 241, 26);
+    border-radius: 12px;
+
+}
+/* .img-nagpur:hover{
+    transform: scale(1.1);
+    transition: 3s;
+} */
+
+.heading{
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.heading-1{
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.nagpur-famous-place{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    margin-left:30px;
+
+}
+
+.text{
+    font-size: 25px;
+    margin-left: 40px;
+    text-align:justify;
+
+}
+
+
+.place-heading{
+    font-size: 40px;
+    text-align: center;
+
+ }
+ .nagpur-card{
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+    text-align: center;
+ }
+ .places-img{
+    height:300px; 
+    width: 300px; 
+    border: 1px solid rgb(166, 232, 166);
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgb(171, 243, 171);
+}
+  body{ 
+    background-color: #66ff66;
+ } 
+ .places-img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+ }
+ .placename{
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
