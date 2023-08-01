@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: 35px;
+}
+.container-main{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    margin-top: 50px;
+    height: 400px;
+    width:650px;
+    font-size: 25px;
+
+}
+.img-futala{
+    margin-left: 50px;
+    width:600px;
+    height: 400px;
+    border-radius: 12px;
+}
+.img-futala:hover{
+    transform:scale(1.1);
+    transition: 2s;
+}
+.text-1{
+    text-align: justify;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.heading-1{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    margin-top: 50px;
+    border-radius: 12px;
+    height: 250px;
+    width: 350px;
+    border:2px solid grey;
+    box-shadow: 0 0 5px 2px gray;
+
+}
