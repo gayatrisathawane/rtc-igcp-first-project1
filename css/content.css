@@ -15,13 +15,17 @@ body{
     margin: 0px;
     background-image: linear-gradient(green blue white yellow);
 }*/
-.container1{
-   
-    background-image: url("./../img/mumbai-img/ilove-mumbai.jpeg");
+.container1{  
    background-repeat: no-repeat;
    background-size: cover;
     height: 600px;
     
+}
+.city-img{
+    height: 500px;
+    width: 900px;
+    margin-left: 25px;
+
 }
 .text1{
     font-size: 25px;
@@ -33,11 +37,11 @@ body{
 .heading-1{
     font-size: 35px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 0;
 }
 .text2{
     text-align: justify;
-    padding: px;
+    padding: 10px;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 25px;
@@ -80,389 +84,53 @@ body{
     margin-top: 20px;
     padding: 5px;
 }
-.features{
-    padding: 100px 0;
 
-}
-.text-deco{
-    margin-bottom: 30px;
-}
-h4{
-    color: blueviolet;
-}
-.hover-text{
-    color: #2d557d;
-}
-h1{
-    text-align: center;
-    padding-bottom: 30px;
-    color: black;
-}
-.features-img img{
-   width: 100%;
-}
-.prize{
-    width: 50px;
-    height: 50px;
-    background: #ff5722;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 50%;
+.hotel-name{
+    display:flex;
+    justify-content: center;
     padding: 10px;
-    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
-    position: absolute;
-    left: 20px;
-    bottom: -25px;
-}
-.features-img{
-    position: relative;
-}
-.rating{
-    padding: 3px;
-    float: right;
-    background: #fff;
-    bottom: -1px;
-    right: 0;
-    position: absolute;
-}
-.features .fa{
-     font-size: 15px;
-     color: orange;
-}
-.feature-details{
-    padding: 20px;
-    text-align: justify;
-}
-.feature-details h4{
-    font-weight: 600;
     margin-top: 20px;
 }
-.feature-details .fa{
-   margin-right: 5px;
-
-}
-.features-box{
-    box-shadow:  0 0 10px 1px rgba(37,73,214,0.18);
-    margin-bottom: 30px;
-}
-.gallery{
-    padding: 100px 0;
-    background: lightgrey;
-}
-.gallery-box img{
-    width: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-.gallery-box img:hover{
-    transform: scale(1.5);
-}
-.gallery-box h4{
-   display: block;
-    color: white;
-    text-shadow: tomato;
-    font-weight: 600;
+.hot{
+    background-color:  #fff5cc;
+    color: #ffcc00;
     font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.gallery-box{
-    position: relative;
-    margin-bottom: 30px;
-}
-.banner{
-    height: 80%;
-    background-image: url(../assets/img/travelingimg7.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 15%;
-}
-.banner-highlights{
-    padding: 70px 0;
-    background: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    color:white;
-   
-}
-.booking-btn{
-    width: 120px;
-    padding: 8px 0;
-    outline: none;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    background: transparent;
-    color: #fff;
-    margin-top: 20px;
-}
-
-.users-feedback{
-    padding: 100px 0;
-}
-.user-review{
-    text-align: center;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
-    padding-bottom: 50px;
-}
-.user-review p{
-    padding: 50px 10px 10px 10px;
-}
-.users-feedback img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: relative;
-    margin: -30px 0 20px 40%;
-}
-.user-review p::before{
-    content: '\201d';
-    display: block;
-    position: absolute;
-    /* font-size: 100px;
-    color: royalblue; */
-    font-family: sans-serif;
-    left: 44%;
-    top: -20px;
-}
-.footer{
-  padding: 70px 20px 15px;
-  background-image: linear-gradient(#163049,#6713a7);
-  color: white;
-}
-.footer-logo{
-    width: 100px;
-    margin-top: 5px;
-    margin-bottom: 5x;
-}
-.footer h4{
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-.footer p{
-    font-size: 12px;
-    text-align: justify;
-    padding-right: 35px;
-}
-.footer .row .fa{
-    padding-right: 20px;
-    font-size: 15px;
-}
-.footer hr{
-    margin-top: 10px;
-    background: lightgrey;
-}
-.fa-heart{
-    margin: 0 5px;
-    color: red;
-}
-.footer .copyright{
-    text-align: center;
-}
-
-
-
-/* navbar css */
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-
-nav{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 5px 0;
-}
-.logo{
-    width: 120px;
-    cursor: pointer;
-}
-.cart-icon{
+    padding: 10px;
+    margin: 12px;
+    height: 30px;
     width: 30px;
-    cursor: pointer;
+    font-weight: bold;
+    border:1px solid #ffcc00;
+    margin-top: 20px;
+  
 }
-nav ul{
-    flex: 1;
-    text-align: center;
-    padding-right: 30px;
-    font-size: 18px;
+.hotel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 30px;
+.hotel-img{
+    width: 420px;
+    height: 250px;
+    border-radius: 20px;
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    position: relative;
+.hotel-card{
+    width: 420px;
+    height: auto;
+    background-color: #fff5cc;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
 }
-nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background: white;
-    bottom: -5px;
-    transition: width 0.3s;
-}
-nav ul li a :hover ::after{
-    width: 50%;
+.hotel-card:hover{
+    box-shadow: 0 0 5px 1px black;
 }
 
-
-
-
-  /*##Device = Desktops
-         ##Screen = 1281px to higher resolution desktops*/
-       @media (min-width: 1281px) {
-
-       }
- 
-       /*##Device = Laptops, Desktops
-         ##Screen = B/w 1025px to 1280px*/
-       @media (min-width: 1025px) and (max-width: 1280px) {
-
-       }
- 
-       /* ##Device = Tablets, Ipads (portrait)
-         ##Screen = B/w 768px to 1024px
-       */
-       @media (min-width: 768px) and (max-width: 1024px) {
-       }
- 
-       /* ##Device = Tablets, Ipads (landscape)
-          ##Screen = B/w 768px to 1024px*/
-       @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        nav{
-            display: flex;
-            width: auto;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 5px 0;
-        }
-        nav ul li{
-          display: none;
-        }
-        .text-deco{
-            margin-bottom: 400px;
-            font-size: 20px;   
-        }
-       
-        .txt{
-            display: none;
-        }
-        .textName{
-            font-size: 30px;
-        }
-        .logo{
-            margin-top: -20px; 
-            size: 30px;   
-        }
-        .description{
-            margin-left: -20px;
-        }
-        .header h1{
-            padding-top: 200px;
-            padding-bottom: 0;
-            font-size: 60px;
-            margin-top: -30px;
-        }
-       }
- 
-       /* ##Device = Low Resolution Tablets, Mobiles (Landscape)
-         ##Screen = B/w 481px to 767px*/
-       @media (min-width: 481px) and (max-width: 767px) {
-        nav{
-            display: flex;
-            width: auto;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 5px 0;
-        }
-        nav ul li{
-          display: none;
-        }
-        .text-deco{
-            margin-bottom: 400px;
-            font-size: 20px;   
-        }
-       
-        .txt{
-            display: none;
-        }
-        .textName{
-            font-size: 30px;
-        }
-        .logo{
-            margin-top: -20px; 
-            size: 30px;   
-        }
-        .description{
-            margin-left: -20px;
-        }
-        .header h1{
-            padding-top: 200px;
-            padding-bottom: 0;
-            font-size: 60px;
-            margin-top: -30px;
-        }
-       }
- 
-       /*##Device = Most of the Smartphones Mobiles (Portrait)
-         ##Screen = B/w 320px to 479px*/
-       @media (min-width: 320px) and (max-width: 480px) {
-        nav{
-            display: flex;
-            width: auto;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 5px 0;
-        }
-        nav ul li{
-          display: none;
-        }
-        .text-deco{
-            margin-bottom: 400px;
-            font-size: 20px;   
-        }
-       
-        .txt{
-            display: none;
-        }
-        .textName{
-            font-size: 30px;
-        }
-        .logo{
-            margin-top: -20px; 
-            size: 30px;   
-        }
-        .description{
-            margin-left: -20px;
-        }
-        .header h1{
-            padding-top: 200px;
-            padding-bottom: 0;
-            font-size: 60px;
-            margin-top: -30px;
-        }
-        .textcolor{
-            color: #1f3d90;
-        }
-        /* span{
-            font-size: 60px;
-        }
-        .text{
-            font-size: 60px;
-          } */
-        
-        
-       }
+.hotel-name1{
+    padding: 10px;
+    margin-left: 15px;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
