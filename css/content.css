@@ -1,8 +1,13 @@
-
+body{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #f5ccf5 10%, #b8fed4 80%);
+    
+}
 *{
     margin: 0;
     padding: 0;
 }
+
 /*.heading{
     font-size: 100px;
     font-style: inherit;
@@ -14,7 +19,7 @@
    
     background-image: url("./../img/mumbai-img/ilove-mumbai.jpeg");
    background-repeat: no-repeat;
-    background-size: cover;
+   background-size: cover;
     height: 600px;
     
 }
@@ -25,15 +30,25 @@
     font-weight: bold;
     text-align: right;
 }
+.heading-1{
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
 .text2{
     text-align: justify;
     padding: px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-size: 25px;
 }
+.place-heading{
+    font-size: 40px;
+    text-align: center;
+
+ }
 .card1{
-     margin-top: 30px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -58,10 +73,12 @@
 .text3{
     text-align: center;
     font-size: 25px;
+    margin-top: 20px;
     color: rgb(1, 14, 1);
 }
 .map{
     margin-top: 20px;
+    padding: 5px;
 }
 .features{
     padding: 100px 0;
