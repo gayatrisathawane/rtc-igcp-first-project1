@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./../img/about-img/bg-img.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+h6{
+    font-size: 17px;
+    color: rgb(73, 72, 72);
+}
+.container{
+    height: 250px;
+    width: 700px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content1{
+    display:flex;
+    flex-direction:row ;
+    border: 8px solid rgb(223, 72, 18);
+}
+.content2{
+    display:flex;
+    flex-direction:row-reverse ;
+    justify-content: end;
+    align-items: end;
+    border: 8px solid rgb(114, 112, 111);
+    position: relative;
+    left: 650px;
+}
+.content3{
+    display:flex;
+    flex-direction:row ;
+    
+    border: 8px solid rgb(223, 72, 18);
+}
+.abt-img{
+  width: 300px;
+
+}
+.img1{
+    height: 250px;
+    width: 210px;
+}
+.info{
+    margin-left:20px ;
+ padding: 10px;
+}
+h2{
+    padding: 10px;
+    font-size: 30px;
+   
+}
+.icon-img{
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px 1px black;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+a{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container{
+    height: 250px;
+    width: 700px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    }
+    .logos-media{
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .logos-media{
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content2{
+        margin-left: -620px;
+    }
+}
+
+
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    /* width: 100%; */
+}
+
+.link-homepage {
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #faf7f7;
+    text-decoration: none;
+}
+
+.link-homepage:hover {
+    color: rgb(245, 222, 13);
+    text-shadow: 1px 1px #ffffff;
+
+}
+
+.btn-login {
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 11px;
+    border: none;
+}
+
+.btn-login:hover {
+    text-shadow: 1px 1px #ffffff;
+
+}
