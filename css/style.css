@@ -9,20 +9,33 @@ body {
 }
 
 .cantainer {
-    background-image: url("./../img/images/travelhome.jpg");
-    height: 100vh;
+    background-image: linear-gradient(rgba(53, 52, 52, 0.9), rgba(62, 62, 62, 0.8)),
+        url("./../img/images/travelhome.jpg");
     width: 100%;
+    height: 100vh;
     background-size: cover;
+    opacity: 0.9;
+}
+
+.dream {
+    margin-top: 100px;
 }
 
 .navbar {
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: end;
+    position: sticky;
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    /* width: 100%; */
 }
 
 .link-homepage {
     margin: 20px;
+    margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
     color: #faf7f7;
@@ -30,7 +43,7 @@ body {
 }
 
 .link-homepage:hover {
-    color: rgb(10, 15, 10);
+    color: rgb(245, 222, 13);
     text-shadow: 1px 1px #ffffff;
 
 }
@@ -41,45 +54,36 @@ body {
     padding: 11px;
     border: none;
 }
-.btn-login:hover{
+
+.btn-login:hover {
     text-shadow: 1px 1px #ffffff;
-   
+
 }
 
-.text-home {
-    text-shadow: 3px 3px 4px ;
-    position: relative;
-    top: 170px;
-    left: 350px;
-    color: rgb(253, 254, 255);
-    font-size: 60px;
+
+.text {
+
+    text-align: center;
+    color: rgb(249, 195, 0);
+    font-size: 65px;
 }
 
-.search-bar {
-    position: relative;
-    top: 180px;
-    left: 330px;
-    width: 500px;
-    height: 35px;
-    border-radius: 30px;
-    border: none;
-    padding: 2px;
-}
-
-.search-btn {
-    position: relative;
-    top: 180px;
-    left: 350px;
-    height: 32px;
-    padding: 6px;
-    width: 100px;
-    background-color: rgb(14, 141, 14);
-    border: none;
-    color: rgb(255, 255, 255);
-    border-radius: 3px;
+.searchbar {
+    margin-top: 20px;
     font-size: 20px;
-
+    padding: 15px;
+    width: 600px;
+    margin-left: 340px;
+    border-radius: 10px;
 }
+
+.subtext {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #f5d314;
+    margin-left: 320px;
+}
+
 
 .travel-text {
     color: rgb(255, 255, 255);
@@ -96,6 +100,8 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+  
 }
 
 .place-card {
@@ -105,16 +111,17 @@ body {
 .places {
     box-shadow: 0px 0px 5px rgb(127, 129, 128);
     margin-top: 10px;
-    height: 400px;
 
 }
 
 .place-heading {
-    font-size: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 10px;
     text-align: center;
     color: rgb(9, 15, 9);
-
 }
 
 .places-img {
@@ -123,7 +130,6 @@ body {
     border: 1px solid rgb(120, 122, 120);
     border-radius: 20px;
     box-shadow: 0px 0px 8px rgb(146, 149, 146);
-    
 }
 
 .places-img:hover {
@@ -140,41 +146,49 @@ body {
     color: rgb(13, 25, 13);
 }
 
+.places-name {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    display: none;
+}
+
 .why-travel {
     display: flex;
     flex-direction: row;
-    height: 500px;
-    position: relative;
-    top: 10px;
     border-radius: 0px 0px 10px black;
     border: 1px solid black;
-
+    z-index: 50;
+    color: aliceblue;
+    
 }
 
 .why-travel-img {
     height: 400px;
+    width: 450px;
     border-radius: 10px;
     margin-left: 10px;
     box-shadow: 0px 5px 10px rgb(135, 130, 130);
-}
-.why-travel-img:hover{
-   box-shadow: 2px 2px 5px rgb(241, 199, 148);
+    z-index: 50;
+  margin: 10px;
 }
 
-.why-img {
-    padding-left: 10px;
-    padding-top: 30px;
-   
+.why-travel-img:hover {
+    box-shadow: 2px 2px 5px rgb(241, 199, 148);
 }
+.whyheading{
+    font-size: 30px;
+}
+
+
 .why-text {
-    font-size: 20px;
-    padding: 30px;
-
+    font-size: 10px;
+    padding: 10px;
+    color: black;
 }
 
 .why-traveltext {
     font-size: 25px;
-    padding: 20px;
     text-align: justify;
 }
 
@@ -184,7 +198,7 @@ body {
     text-align: center;
     padding: 20px;
     background-color: rgb(130, 125, 125);
-    color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
     box-shadow: 0px 0px 5px rgb(236, 116, 116);
 }
 
@@ -200,18 +214,19 @@ body {
     justify-content: space-evenly;
     height: 250px;
     align-items: center;
+    flex-wrap: wrap;
+   
 
 }
 
 .home-place {
     width: 200px;
     height: 200px;
-
-
 }
 
+
 .container-home-places {
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 .home-place-img {
@@ -220,4 +235,117 @@ body {
     border-radius: 50%;
     padding: 3px;
     box-shadow: 0px 0px 5px 1px rgb(40, 39, 39);
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .link-homepage {
+        margin: 20px;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #faf7f7;
+        text-decoration: none;
+    }
+
+    .text {
+
+        text-align: center;
+        color: rgb(249, 195, 0);
+        font-size: 40px;
+    }
+
+    .subtext {
+        margin-top: 10px;
+        font-size: 25px;
+        color: #f5d314;
+        margin-left: 20px;
+    }
+
+    .searchbar {
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 5px;
+        width: 400px;
+        margin-left: 90px;
+        border-radius: 10px;
+    }
+
+    .container-home-places {
+
+        flex-direction: row;
+        height: 410px;
+
+        flex-wrap: wrap;
+        
+
+    }
+
+    .home-place {
+        margin-top: 10px;
+    }
+
+    .place-heading {
+        font-size: 30px;
+
+    }
+
+    .famous-place {
+        height: 500px;
+    }
+
+    .places-img {
+        width: 200px;
+        height: 200px;
+
+        border-radius: 20px;
+
+    }
+
+    .places-img:hover {
+        width: 210px;
+        height: 210px;
+        border: 3px dashed rgb(97, 244, 97);
+        border-radius: 10px;
+        box-shadow: 0px 0px 9px rgb(128, 238, 128);
+        transition: 0.5s;
+    }
+
+    .placename {
+        font-size: 20px;
+
+        color: rgb(13, 25, 13);
+    }
+
+    .heading-why {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .why-travel-img {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+        box-shadow: 0px 5px 10px rgb(135, 130, 130);
+        z-index: 50;
+    }
+    .why-travel{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .search {}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .search {}
 }
