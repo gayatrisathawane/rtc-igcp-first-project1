@@ -35,28 +35,17 @@ body {
 }
 
 .link-homepage {
-    margin: 20px;
-    margin-top: 30px;
-    font-size: 25px;
+    /* margin-left: 40px; */
+    margin: 10px; 
+    font-size: 20px;
     font-weight: bold;
     color: #faf7f7;
     text-decoration: none;
+    padding: 10px;
 }
 
 .link-homepage:hover {
     color: rgb(245, 222, 13);
-    text-shadow: 1px 1px #ffffff;
-
-}
-
-.btn-login {
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 11px;
-    border: none;
-}
-
-.btn-login:hover {
     text-shadow: 1px 1px #ffffff;
 
 }
@@ -66,21 +55,21 @@ body {
 
     text-align: center;
     color: rgb(249, 195, 0);
-    font-size: 65px;
+    font-size: 50px;
 }
 
 .searchbar {
     margin-top: 20px;
     font-size: 20px;
-    padding: 15px;
-    width: 600px;
-    margin-left: 340px;
+    padding: 10px;
+    width: 500px;
+    margin-left: 300px;
     border-radius: 10px;
 }
 
 .subtext {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: #f5d314;
     margin-left: 320px;
 }
@@ -96,7 +85,7 @@ body {
 }
 
 .famous-place {
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -116,7 +105,7 @@ body {
 }
 
 .place-heading {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -126,16 +115,16 @@ body {
 }
 
 .places-img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: 1px solid rgb(120, 122, 120);
     border-radius: 20px;
     box-shadow: 0px 0px 8px rgb(146, 149, 146);
 }
 
 .places-img:hover {
-    width: 280px;
-    height: 280px;
+    width: 210px;
+    height: 210px;
     border: 3px dashed rgb(97, 244, 97);
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgb(128, 238, 128);
@@ -143,14 +132,16 @@ body {
 }
 
 .placename {
-    text-align: center;
+    text-align:start;
+    font-size: 18px;
+    margin-left: 30px;
     color: rgb(13, 25, 13);
 }
 
 .places-name {
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     display: none;
 }
 
@@ -165,8 +156,8 @@ body {
 }
 
 .why-travel-img {
-    height: 400px;
-    width: 450px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
     margin-left: 10px;
     box-shadow: 0px 5px 10px rgb(135, 130, 130);
@@ -189,7 +180,7 @@ body {
 }
 
 .why-traveltext {
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -204,7 +195,8 @@ body {
 }
 
 .marathi-quotes {
-    font-size: 30px;
+    padding: 5px;
+    font-size: 25px;
     font-weight: 500;
     color: rgb(7, 141, 7);
 }
@@ -212,7 +204,7 @@ body {
 .container-home-places {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 250px;
     align-items: center;
     flex-wrap: wrap;
@@ -221,8 +213,8 @@ body {
 }
 
 .home-place {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
 }
 
 

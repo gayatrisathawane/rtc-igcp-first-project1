@@ -1,91 +1,198 @@
-body{
-    background-color: #FFDEE9;
-background-image: linear-gradient(0deg, #ffecf2 0%, #e6ffff);
 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-.Histroty-head{
+body {
+    /* background-color: #FFDEE9; */
+    background-image: linear-gradient(0deg, #ffecf2 0%, #e6ffff);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Histroty-head {
     text-shadow: 2px 2px white;
     font-size: 40px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     height: 350px;
-    border: 1px solid black;
+    /* border: 2px solid black; */
     align-items: center;
-    box-shadow: 0px 0px 5px black;
-    width: 900px;
+    /* box-shadow: 0px 0px 5px rgb(241, 131, 71); */
+    /* width: 800px; */
     margin-top: 20px;
+    border-radius: 20px;
 }
-.raigadimg{
-    height: 260px;
-    border-radius: 50px;
-   margin-left: 10px;
+
+/* .container:hover {
+    box-shadow: 0px 0px 10px rgb(241, 131, 71);
+    border: 3px dashed rgb(235, 83, 7);
+
+
+} */
+
+.raigadimg {
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
 }
-.raigad-text{
-    padding: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.raigad-text {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
 }
-.explore-btn{
+
+.explore-btn {
     color: white;
     padding: 10px;
     background-color: rgb(242, 154, 2);
     border-radius: 20px;
     border: none;
+    font-size: 15px;
+    margin-top: 10px;
 
 }
-.location{
+
+.location {
     margin-left: 20px;
     font-size: 20px;
     color: rgb(246, 37, 37);
 }
-.hawamahal-div{
-    position: relative;
-    right: -180px;
-    left: 150px;
+
+/* .hawamahal-div {
+    margin-left: 250px;
+} */
+
+.historytext {
+    font-size: 17px;
+    /* padding: 10px; */
 }
-.hawa-mahal-img{
-    height: 250px;
-    width: 270px;
+
+.hawa-mahal-img {
+    height: 280px;
+    width: 300px;
     border-radius: 20px;
     margin-right: 10px;
 }
+
 .hawa-mahal-text {
-    padding: 20px;
+    padding: 30px;
     text-align: justify;
 }
-.lalmahal-text{
-    padding: 20px;
+
+.lalmahal-text {
+    /* padding: 20px; */
     text-align: justify;
 
 }
 
-.lalamhalimg{
-    height:240px;
-    width: 270px;
-    box-shadow: 0px 0px 3px 2px  rgb(243, 233, 233);
+.lalamhalimg {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 3px 2px rgb(243, 233, 233);
     border-radius: 20px;
     margin-left: 10px;
 }
-.hisdiv{
-   margin-left: 20px;
-}
-.img{
+
+/* .hisdiv {
+    margin-left: 20px;
+} */
+
+.img {
     box-shadow: 0 0 5px rgb(247, 133, 133);
 }
-.img:hover{
+
+.img:hover {
     border: 1px solid rgb(255, 166, 1);
 }
-.raigadname{
+
+.raigadname {
     color: rgb(255, 105, 5);
 }
-.lalmahalname{
-    color:red;
+
+.lalmahal {
+    color: red;
 }
-.hawamahalname{
-    color:orange;
+
+.hawamahalname {
+    color: orange;
+}
+.name{
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    /* left: 0;
+    right: 0;
+    width: 100%; */
+}
+.link-homepage {
+    /* margin-left: 40px; */
+    margin: 10px; 
+    font-size: 20px;
+    font-weight: bold;
+    color: #faf7f7;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.link-homepage:hover {
+    color: rgb(245, 222, 13);
+    text-shadow: 1px 1px #ffffff;
+
+}
+
+
+.explore-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 50;
+}
+
+.explore-card {
+    border-radius: 10px;
+    border: 4px double rgb(18, 147, 6);
+    height: 260px;
+    width: 250px;
+    /* position: relative; */
+    
+}
+
+.explore-img {
+    
+    height: 260px;
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+    z-index: 50;
+}
+
+.explore-card:hover .name{
+    opacity: 1;
+    color :rgb(221, 227, 232);
+    font-size: 30px;
+   
+}
+.explore-img:hover {
+    opacity: 0.3;
+    background-color: linear-gradient(rgba(5, 5, 5, 0.9), rgba(6, 6, 6, 0.8));
+}
+
+.explore-heading {
+    font-size: 37px;
+    text-align: center;
 }
