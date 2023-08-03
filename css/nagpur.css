@@ -2,6 +2,47 @@
     margin: 0px;
     padding: 0px;
  }
+ .navbar {
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   position: sticky;
+   top: 0;
+   z-index: 50;
+   /* left: 0;
+   right: 0; */
+   /* width: 100%; */
+}
+
+.link-homepage {
+   margin: 20px;
+   margin-top: 30px;
+   font-size: 25px;
+   font-weight: bold;
+   color: #faf7f7;
+   text-decoration: none;
+}
+
+.link-homepage:hover {
+   color: rgb(245, 222, 13);
+   text-shadow: 1px 1px #ffffff;
+
+}
+
+.btn-login {
+   font-size: 15px;
+   border-radius: 20px;
+   padding: 11px;
+   border: none;
+}
+
+.btn-login:hover {
+   text-shadow: 1px 1px #ffffff;
+
+}
+
+
  body{
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #f5ccf5 10%, #b8fed4 80%);
@@ -142,14 +183,14 @@
 }
 .hot{
    background-color:  #fff5cc;
-   color: #ffcc00;
+   color:#ff0000;
    font-size: 30px;
    padding: 10px;
    margin: 12px;
    height: 30px;
    width: 30px;
    font-weight: bold;
-   border:1px solid #ffcc00;
+   border:1px solid #ff8080;
    margin-top: 20px;
  
 }
@@ -168,7 +209,7 @@
    height: auto;
    background-color: #fff5cc;
    margin: 20px;
-   padding: 5px;
+   padding: 10px;
    border-radius: 20px;
 }
 .hotel-card:hover{
