@@ -92,8 +92,8 @@
    font-weight: bolder;  
  }
 .img-orange{
-   height: 250px;
-   width: 250px;
+   height: 280px;
+   width: 280px;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -324,7 +324,7 @@ p{
 @media screen and (min-width: 769px) and (max-width: 992px){
    .container-main{
       background-image: linear-gradient(rgba(53,52,52,0.9),rgba(62,62,62, 0.8)),url("../img/nagpurimg/nagpurbg.png");
-      height: 1000px;
+      height: 1050px;
       width: 100%;
       background-size: cover;
       opacity: 0.9;
@@ -360,8 +360,8 @@ p{
       font-weight: bolder;  
     }
     .img-orange{
-      height: 220px;
-      width: 220px;
+      height: 235px;
+      width: 235px;
       border-radius: 50%;
       /* margin-left: 100px; */
       display: block;
