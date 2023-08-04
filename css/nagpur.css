@@ -319,6 +319,7 @@ p{
     font-size: 35px;
     margin-left: 30px;
 }
+
 }
 @media screen and (min-width: 769px) and (max-width: 992px){
    .container-main{
@@ -395,9 +396,5 @@ p{
    justify-content:space-evenly;
    flex-wrap: wrap;
 }
-.heading-1{
-   margin-top: 20px;
-    font-size: 35px;
-    margin-left: 30px;
-}
+
  }
