@@ -2,7 +2,7 @@
     font-size: 20px;
     background-color: black;
     width: 100%;
-  justify-content: space-between;
+    justify-content: space-between;
     color: white;
     display: flex;
     flex-direction: row;

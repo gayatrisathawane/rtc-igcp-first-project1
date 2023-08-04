@@ -6,27 +6,79 @@
     <title>Aurangabad</title>
 
     <link rel="stylesheet" href="./../css/content.css" />
+    <link rel="stylesheet" href="./../css/footer.css" /> 
+
+<script src="https://kit.fontawesome.com/c002ab10c1.js" crossorigin="anonymous"></script>
   </head>
   <style>
-   .container2{
-   
-   background-image: url("./../img/aurangabadimg/aurangabad.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 600px;
-   
+
+  .container-main{
+    background-image: linear-gradient(rgba(53,52,52,0.9),rgba(62,62,62, 0.8)),url("../img/aurangabadimg/aurangabad.png");
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.9;
+    display: flex; 
+    flex-direction: row;  
+    justify-content:space-around;
+ }
+@media screen and (min-width: 600px) and (max-width: 768px){
+   .container-main{ 
+       background-image: linear-gradient(rgba(53,52,52,0.9),rgba(62,62,62, 0.8)),url("../img/nagpurimg/nagpurbg.png");
+       height: 950px;
+       width: 100%;
+       background-size: cover;
+       opacity: 0.9;
+       display: flex; 
+       flex-direction: row;  
+       justify-content:space-around;
+       flex-wrap: wrap; 
+    } 
 }
+@media screen and (min-width: 769px) and (max-width: 992px){
+  .container-main{
+      background-image: linear-gradient(rgba(53,52,52,0.9),rgba(62,62,62, 0.8)),url("../img/nagpurimg/nagpurbg.png");
+      height: 1000px;
+      width: 100%;
+      background-size: cover;
+      opacity: 0.9;
+      display: flex; 
+      flex-direction: row;  
+      justify-content:space-around;
+      flex-wrap: wrap; 
+   }
+}
+
   </style>
   <body>
-    <div class="city-img">
-    <div>
-      <img class="city-img" src="./../img/aurangabadimg/i-love-aurangabad.jpeg"> 
-    </div>
-    <div>
 
-    </div>
-    </div>
+    <div class="navbar">
+    <a href="" class="link-homepage">Home</a>
+    <a href="" class="link-homepage">Contact us</a>
+    <a href="./pages/about.html" class="link-homepage">About us</a>
+    <a href="./pages/explore.html"class="link-homepage"  target="_blank">Explore</a>
+    <a  href="" class="link-homepage"><button class="btn-login">Login In</button><a> 
+   </div>
 
+
+    <div class="container-main">
+        
+      <div class="container">
+         <img src="./../img/aurangabadimg/aurangabad.png" class="img-city"> 
+
+      </div>
+      <div class="container">
+         <div class="sub-container">
+             <p class="text-quotes">This city called the <br/>CITY OF GATES
+             and you know it's Aurangabad</p>
+         </div>
+         <div class="sub-container">
+             <img src="./../img/aurangabadimg/gate.png" class="img-city-special">
+
+         </div>
+      </div>
+  </div>
+  
      <h2 class="heading-1">Specialitity of Aurangabad</h2>
      <br/>
 
@@ -41,26 +93,24 @@
   </div>
   
 
-    <div class="card1" style="margin-top: 0;">
+    <div class="card1" >
       <div class="box1">
         <img class="img" src="../img/aurangabadimg/bibika-makbara.png" />
         <h2 class="text3">Bibi Ka Makbara</h2>
       </div>
 
+      <a href="./elloracaves.html" target="_blank" class="placelink">
       <div class="box1">
-        <img
-          class="img"
-          src="../img/aurangabadimg/Ellora-Caves.png"
-        />
+        <img class="img"src="../img/aurangabadimg/Ellora-Caves.png" />
         <h2 class="text3">Ajintha Ellora Caves</h2>
-      </div>
+      </div></a>
+
       <div class="box1">
         <img class="img" src="../img/aurangabadimg/bihar.png" />
         <h2 class="text3">Bihar</h2>
       </div>
       <div class="box1">
-        <img
-          class="img"
+        <img class="img"
           src="../img/aurangabadimg/chittorgarh.png"
         />
         <h2 class="text3">chittorgarh</h2>
@@ -105,7 +155,7 @@
 
         <div  class="hotel-card">
           <img class="hotel-img" src="./../img/mumbai-img/5-star-hotel.jpg">
-          <h2 class="hotel-name1" ><a href="https://goo.gl/maps/rkzV9T6PYCP12Fcz5" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffcc00;"></i></a> Taj hotel</h2>
+          <h2 class="hotel-name1" ><a href="https://goo.gl/maps/rkzV9T6PYCP12Fcz5" target="_blank"><i class="fa-solid fa-location-dot" style="color:#fc4521;"></i></a> Taj hotel</h2>
 
           <p>Stylishly designed with Indian-inspired decor and architecture, the rooms offer amazing sea, city or pool views. Guests receive 24-hour butler service. The staff were charming. They upgraded me to a suite, sent me a bottle of wine and helped me with taxis and finding a lost bag. Utterly divine stay and I will be back!
           </p>
@@ -119,7 +169,7 @@
 
         <div class="hotel-card">
           <img class="hotel-img" src="./../img/mumbai-img/Ambassador Hotel.jpg">
-          <h2 class="hotel-name1"> <a href="https://goo.gl/maps/DFxEhA89JNQs184x7" target="_blank"><i class="fa-solid fa-location-dot" style="color: #ffcc00;"></i></a> Ambassador Hotel</h2>
+          <h2 class="hotel-name1"> <a href="https://goo.gl/maps/DFxEhA89JNQs184x7" target="_blank"><i class="fa-solid fa-location-dot" style="color:#fc4521;"></i></a> Ambassador Hotel</h2>
 
           <p>Stylishly designed with Indian-inspired decor and architecture, the rooms offer amazing sea, city or pool views. Guests receive 24-hour butler service. The staff were charming. They upgraded me to a suite, sent me a bottle of wine and helped me with taxis and finding a lost bag. Utterly divine stay and I will be back!
           </p>
@@ -133,7 +183,7 @@
 
         <div class="hotel-card">
           <img class="hotel-img" src="./../img/mumbai-img/Orchid Hotel.jpg">
-          <h2 class="hotel-name1"> <a href="https://goo.gl/maps/ZRru31AcBFjEkf8f9" target="_blank"> <i class="fa-solid fa-location-dot" style="color: #ffcc00;"></i> </a> Orchid Hotel</h2>
+          <h2 class="hotel-name1"> <a href="https://goo.gl/maps/ZRru31AcBFjEkf8f9" target="_blank"> <i class="fa-solid fa-location-dot" style="color: #fc4521;"></i></a> Orchid Hotel</h2>
           <p>Stylishly designed with Indian-inspired decor and architecture, the rooms offer amazing sea, city or pool views. Guests receive 24-hour butler service. The staff were charming. They upgraded me to a suite, sent me a bottle of wine and helped me with taxis and finding a lost bag. Utterly divine stay and I will be back!
           </p>
     
@@ -149,8 +199,72 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d137622.96376064405!2d75.19426774138911!3d19.877539432178565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfamous%20places%20in%20aurangabad!5e0!3m2!1sen!2sin!4v1690872580618!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
+    <div class="footer">
+      <div class="footer1">
+          <h3>Company</h3><br>
+          <ul>
+              <li> > About us</li><br>
+              <li>> Contact us </li><br>
+              <li>> Privacy policy</li><br>
+              <li>> Term & condition</li><br>
+              <li>> FAQs & Help</li><br>
+          </ul>
+  
+      </div>
+      <div class="footer1">
+          <h3>Contact</h3><br>
+          <li> Near,Lotus multispecility hospitsal,<br>shewadwadi</li><br>
+          <li><a href="tel:7878678980" class="flink"><i class="fa-solid fa-phone"></i> +91 7878677890</a></li>
+          <br>
+          <li><a href="mailto:roadtocode@orgs" class="flink"><i class="fa-regular fa-envelope"></i> Email us</a></li><br>
+          <div class="social-media">
+              <div class="social-icons"><i class="fa-brands fa-twitter"></i></div>
+              <div class="social-icons"><i class="fa-brands fa-facebook-f"></i></div>
+              <div class="social-icons"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="social-icons"><i class="fa-regular fa-envelope"></i></div>
+          </div>
+      </div>
+      <div class="footer1">
+          <h3>Gallery</h3><br>
+          <div class="footergallery">
+          <div >
+              <img src="./../img/images/bibikamakbra.jpg" class="footerimg">
+  
+          </div>
+          <div >
+              <img src="./../img/images/bibikamakbra.jpg" class="footerimg">
+  
+          </div>
+          <div >
+              <img src="./../img/images/bibikamakbra.jpg" class="footerimg">
+  
+          </div>
+            </div>
+            <div class="footergallery">
+              <div >
+                  <img src="./../img/images/bibikamakbra.jpg" class="footerimg">
+      
+              </div>
+              <div >
+                  <img src="./../img/images/bibikamakbra.jpg" class="footerimg">
+      
+              </div>
+              <div >
+                  <img src="./../img/images/bibikamakbra.jpg" class="footerimg">
+      
+              </div>
+                </div>
+          </div>
+  
+      <div class="footer1">
+          <h3>Newsletter</h3>
+          <p>Lorem ipsum dolor sit amet .<br> Quas nemo </p><br>
+          <input type="text" placeholder="Your Email" class="newsletter"/> <i class="fa-regular fa-paper-plane"></i>
+   
+       </div>
+
 
     
-    <script src="https://kit.fontawesome.com/c002ab10c1.js" crossorigin="anonymous"></script>
+    
   </body>
 </html>
