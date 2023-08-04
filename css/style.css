@@ -54,7 +54,7 @@ body {
 .text {
     text-align: center;
     color: rgb(249, 195, 0);
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .searchbar {
@@ -62,7 +62,7 @@ body {
     font-size: 20px;
     padding: 10px;
     width: 500px;
-    margin-left: 300px;
+    margin-left: 470px;
     border-radius: 10px;
 }
 
@@ -70,7 +70,7 @@ body {
     margin-top: 10px;
     font-size: 20px;
     color: #f5d314;
-    margin-left: 320px;
+    margin-left: 470px;
 }
 
 

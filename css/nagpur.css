@@ -59,9 +59,8 @@
     display: flex; 
     flex-direction: row;  
     justify-content:space-around;
-   
-
  }
+
  .container{
    height: 450px;
    width: 500px;
@@ -95,10 +94,11 @@
 .img-orange{
    height: 250px;
    width: 250px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    border-radius: 50%;
-   margin-left: 100px;
    margin-top: 20px;
-   /* border: 2px solid #ff9900; */
    box-shadow:0 0 4px 2px #ff9900;
 }
 .img-orange:hover{
@@ -107,14 +107,12 @@
 
 }
 
-.heading{
+ .heading{ 
 
     text-align: center; 
     font-size: 70px;
     margin-bottom: 10px;
-
-
-}
+ } 
 
 .heading-1{
    margin-top: 20px;
@@ -128,7 +126,7 @@
     flex-direction: row;
     margin-top: 30px; 
     padding: 15px; 
-    justify-content:space-around
+    justify-content:space-around;
 
 }
 
@@ -173,6 +171,7 @@
  .placelink{
    text-decoration: none;
    color: black;
+   cursor: pointer;
 
  }
  .hotel-name{
@@ -227,4 +226,175 @@ p{
  .map{
     margin-top: 40px;
     padding: 5px;
+ }
+
+ @media screen and (min-width: 600px) and (max-width: 768px){
+   .link-homepage {
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: bold;
+      color: #faf7f7;
+      text-decoration: none;
+   }
+   .container-main{
+      background-image: linear-gradient(rgba(53,52,52,0.9),rgba(62,62,62, 0.8)),url("../img/nagpurimg/nagpurbg.png");
+      height: 950px;
+      width: 100%;
+      background-size: cover;
+      opacity: 0.9;
+      display: flex; 
+      flex-direction: row;  
+      justify-content:space-around;
+      flex-wrap: wrap; 
+   }
+   .container{
+      height: 400px;
+      width: 500px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .img-nagpur{  
+      /* margin: 5px; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 360px;
+      width: 450px;
+      border:3px solid ;
+      box-shadow: 0px 0px 4px 1px black;
+      border-radius: 20px;
+    }
+    .text-quotes{
+      text-align: center;
+      font-size: 45px;
+      word-spacing: 25px;
+      color: #ff9900; 
+      font-weight: bolder;  
+    }
+   .img-orange{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      /* margin-left: 100px; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+      /* border: 2px solid #ff9900; */
+      box-shadow:0 0 4px 2px #ff9900;
+   }
+   .nagpur-famous-place{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px; 
+      padding: 15px; 
+      justify-content:center;
+      flex-wrap: wrap;
+  
+  }
+  .nagpur-card{
+   width: 250px;
+   height: 150px;
+   margin: 90px; 
+  
+}
+ .placename{
+   font-size: 25px;
+   text-align: center;
+   margin-bottom: 50px;
+   
+}
+  .hotel-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.heading-1{
+   margin-top: 20px;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+   .container-main{
+      background-image: linear-gradient(rgba(53,52,52,0.9),rgba(62,62,62, 0.8)),url("../img/nagpurimg/nagpurbg.png");
+      height: 1000px;
+      width: 100%;
+      background-size: cover;
+      opacity: 0.9;
+      display: flex; 
+      flex-direction: row;  
+      justify-content:space-around;
+      flex-wrap: wrap; 
+   }
+   .container{
+      height: 400px;
+      width: 550px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .img-nagpur{  
+      /* margin: 5px; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 360px;
+      width: 500px;
+      border:3px solid ;
+      box-shadow: 0px 0px 4px 1px black;
+      border-radius: 20px;
+    }
+    .text-quotes{
+      text-align: center;
+      font-size:50px;
+      word-spacing: 25px;
+      color: #ff9900; 
+      font-weight: bolder;  
+    }
+    .img-orange{
+      height: 220px;
+      width: 220px;
+      border-radius: 50%;
+      /* margin-left: 100px; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+      /* border: 2px solid #ff9900; */
+      box-shadow:0 0 4px 2px #ff9900;
+   }
+   .nagpur-famous-place{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px; 
+      padding: 15px; 
+      justify-content:center;
+      flex-wrap: wrap;
+  }
+  .nagpur-card{
+   width: 250px;
+   height: 150px;
+   margin: 90px; 
+  
+}
+ .placename{
+   font-size: 25px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.hotel-container{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+}
+
  }
