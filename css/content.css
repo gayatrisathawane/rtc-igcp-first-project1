@@ -7,6 +7,92 @@ body{
     margin: 0;
     padding: 0;
 }
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    /* left: 0;
+    right: 0; */
+    /* width: 100%; */
+ }
+ 
+ .link-homepage {
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #faf7f7;
+    text-decoration: none;
+ }
+ 
+ .link-homepage:hover {
+    color: rgb(245, 222, 13);
+    text-shadow: 1px 1px #ffffff;
+ 
+ }
+ 
+ .btn-login {
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 11px;
+    border: none;
+ }
+ 
+ .btn-login:hover {
+    text-shadow: 1px 1px #ffffff;
+ 
+ }
+.container{
+    height: 450px;
+    width: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+  }
+   .img-city{  
+     margin: 5px;
+     height: 450px;
+     width: 500px;
+     border:3px solid ;
+     box-shadow: 0px 0px 4px 1px black;
+     border-radius: 20px;
+   }
+ 
+  .img-city:hover{
+     transform: scale(1.1);
+     transition: 3s;
+ } 
+ .text-quotes{
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 25px;
+    color: #ff9900; 
+    font-weight: bolder;  
+  }
+
+ .img-city-special{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow:0 0 4px 2px #ff9900;
+ }
+ .img-city-special:hover{
+    transform: scale(1.1);
+    transition: 3s;
+ 
+ }
+ 
+
 
 /*.heading{
     font-size: 100px;
@@ -15,18 +101,12 @@ body{
     margin: 0px;
     background-image: linear-gradient(green blue white yellow);
 }*/
-.container1{  
+/* .container1{   *
    background-repeat: no-repeat;
    background-size: cover;
-    height: 600px;
+     height: 600px;
+ } */
     
-}
-.city-img{
-    height: 500px;
-    width: 900px;
-    margin-left: 25px;
-
-}
 .text1{
     font-size: 25px;
     padding: 15px;
@@ -37,7 +117,7 @@ body{
 .heading-1{
     font-size: 35px;
     margin-left: 40px;
-    margin-top: 0;
+    margin-top: 20px;
 }
 .text2{
     text-align: justify;
@@ -57,6 +137,12 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+.placelink{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+ 
+  }
 .box1{
       height: 200px;
       width: 300px;
@@ -93,14 +179,14 @@ body{
 }
 .hot{
     background-color:  #fff5cc;
-    color: #ffcc00;
+    color: #ff0000;
     font-size: 30px;
     padding: 10px;
     margin: 12px;
     height: 30px;
     width: 30px;
     font-weight: bold;
-    border:1px solid #ffcc00;
+    border:1px solid  #ff8080;
     margin-top: 20px;
   
 }
@@ -119,7 +205,7 @@ body{
     height: auto;
     background-color: #fff5cc;
     margin: 20px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
 }
 .hotel-card:hover{
