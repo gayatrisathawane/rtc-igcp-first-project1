@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+
+    <link rel="stylesheet" href="./../css/footer.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+       .container{
+            background-image:url(./../img/images/bg-login.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+           
+        }
+       .main-container{
+        width: 600px;
+        height: 600px;
+        display: flex;
+        align-items: end;
+        margin-left: 50px;
+       }
+        form{
+             height: auto;
+             width: 600px;
+             padding-left: 40px;
+             padding-top: 5px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 15px 2px black;
+           
+          
+        }
+        button{
+        margin-left: 60px;
+        background-color: rgb(169, 169, 222);
+        font-size: 22px;
+        border-radius: 10px;
+        padding: 6px;
+        cursor: pointer;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        }
+        button:hover{
+             box-shadow: 0px 0px 5px rgb(226, 208, 208);
+             font-size: 20px;
+             background-color: rgb(4, 4, 117);
+             color: white;
+             border-radius: 20px;
+        }
+        .input{
+            border: none;
+            height: 25px;
+            width: 300px;
+            border-bottom: 2px dotted black;
+        }
+        .input:hover{
+            box-shadow: 0px  0px  3px black;
+        }
+        span{
+            color: rgb(214, 213, 224);
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        span:hover{
+            font-size: 22px;
+            color: rgb(214, 234, 41);
+        }
+        .text{
+            font-size: 18px;
+            padding-left: 30px;
+            font-weight: bolder;  
+        }
+        .text1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    /* left: 0;
+    right: 0; */
+    /* width: 100%; */
+}
+
+.link-homepage {
+    /* margin-left: 40px; */
+    margin: 10px; 
+    font-size: 20px;
+    font-weight: bold;
+    color: #faf7f7;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.link-homepage:hover {
+    color: rgb(245, 222, 13);
+    text-shadow: 1px 1px #ffffff;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="container" >
+
+        <div class="navbar">
+            <a href="./../index.html" class="link-homepage">Home</a>
+            <a href="./../pages/explore.html" class="link-homepage">Explore</a>
+            <a href="./about.html" class="link-homepage">About us</a>
+         <a href="./pages/explore.html"class="link-homepage"  target="_blank">Contact us</a>
+        <a  href="lo" class="link-homepage" target="_blank" >Log In</a>
+           </div>
+           
+           <div class="main-container">
+        <form>
+            <h1 class="text1"> Register form  </h1>
+            <label class="text"> Enter full Name :  </label>
+            <input  class="input" type="name" required required minlength="8" maxlength="15" placeholder=" enter full name"><br><br>
+
+             <label  class="text"> Username : </label> 
+             <input class="input" type="username"  required minlength="8" maxlength="15" placeholder=" enter username"> <br><br>
+
+            <label class="text"> Password :  </label>
+            <input  class="input" type="password" required required minlength="8" maxlength="15" placeholder=" enter password"><br><br>
+
+            <label class="text"> Confirm Password :</label>
+            <input  class="input" type="password" required required minlength="8" maxlength="15" placeholder=" enter password"><br><br>
+
+            <label class="text"> Email : </label>
+            <input  class="input" type="email" required required minlength="8" maxlength="15" placeholder=" enter email"><br><br>
+
+           
+            <label class="text"> DOB </label>
+            <input  class="inpt" type="date" required required minlength="8" maxlength="15" placeholder=" enter password">
+
+            <label class="text" required> Gender : </label>
+            <input   type="radio"  name="gender" value="male" class="text" > Male
+            <input   type="radio"  name="gender" value="female" class="text" > Female
+             <input   type="radio"  name="gender" value="other" class="text" >Other
+             <br><br>
+
+             <label class="text" > contact No. :</label>
+             <input  class="input"type="text" required>
+            <br><br>
+
+
+             <center><button ><a href="./Loginform.html">Submit</a></button> </center></a>
+           <a href="./Loginform.html"> <span>Back To Login</span></a>
+        </form>
+    </div>
+
+    </div>
+
+    
+    <div class="footer">
+        <div class="footer1">
+            <h3>Company</h3><br>
+            <ul>
+                <li> > About us</li><br>
+                <li>> Contact us </li><br>
+                <li>> Privacy policy</li><br>
+                <li>> Term & condition</li><br>
+                <li>> FAQs & Help</li><br>
+            </ul>
+    
+        </div>
+        <div class="footer1">
+            <h3>Contact</h3><br>
+            <li> Near,Lotus multispecility hospitsal,<br>shewadwadi</li><br>
+            <li><a href="tel:7878678980" class="flink"><i class="fa-solid fa-phone"></i> +91 7878677890</a></li>
+            <br>
+            <li><a href="mailto:roadtocode@orgs" class="flink"><i class="fa-regular fa-envelope"></i> Email us</a></li><br>
+            <div class="social-media">
+                <a href="#"><div class="social-icons"><i class="fa-brands fa-twitter"></i></div></a>
+                <a href="#"><div class="social-icons"><i class="fa-brands fa-facebook-f"></i></div></a>
+                <a href="#"><div class="social-icons"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                  <a href="#"><div class="social-icons"><i class="fa-regular fa-envelope"></i></div></a>
+            </div>
+        </div>
+        <div class="footer1">
+            <h3>Gallery</h3><br>
+            <div class="footergallery">
+            <div >
+                <img src="../img/images/bibikamakbra.jpg" class="footerimg">
+    
+            </div>
+            <div >
+                <img src="../img/images/bibikamakbra.jpg" class="footerimg">
+    
+            </div>
+            <div >
+                <img src="../img/images/bibikamakbra.jpg" class="footerimg">
+    
+            </div>
+              </div>
+              <div class="footergallery">
+                <div >
+                    <img src="../img/images/bibikamakbra.jpg" class="footerimg">
+        
+                </div>
+                <div >
+                    <img src="../img/images/bibikamakbra.jpg" class="footerimg">
+        
+                </div>
+                <div >
+                    <img src="../img/images/bibikamakbra.jpg" class="footerimg">
+        
+                </div>
+                  </div>
+            </div>
+    
+        <div class="footer1">
+            <h3>Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet .<br> Quas nemo </p><br>
+            <input type="text" placeholder="Your Email" class="newsletter"/> <i class="fa-regular fa-paper-plane"></i>
+     
+        </div>
+
+        <script src="https://kit.fontawesome.com/e872ba44e8.js" crossorigin="anonymous"></script>
+            
+</body>
+</html>
