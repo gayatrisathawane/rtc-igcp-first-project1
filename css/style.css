@@ -52,7 +52,6 @@ body {
 
 
 .text {
-
     text-align: center;
     color: rgb(249, 195, 0);
     font-size: 50px;
@@ -233,9 +232,9 @@ body {
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .link-homepage {
-        margin: 20px;
-        margin-top: 30px;
-        font-size: 20px;
+        margin: 10px;
+        margin-top: 20px;
+        font-size: 18px;
         color: #faf7f7;
         text-decoration: none;
     }
@@ -264,22 +263,36 @@ body {
     }
 
     .container-home-places {
-
+        display: flex;
         flex-direction: row;
-        height: 410px;
-
+        justify-content: space-evenly;
+        height: 500px;
+        /* align-items: center; */
         flex-wrap: wrap;
-        
-
+      
+       
+    
     }
-
+    
     .home-place {
-        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+        margin: 25px;
+      
     }
+    .home-place-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding: 3px;
+        box-shadow: 0px 0px 5px 1px rgb(40, 39, 39);
+        /* align-items: center; */
+    }
+
+    
 
     .place-heading {
         font-size: 30px;
-
     }
 
     .famous-place {
@@ -289,7 +302,6 @@ body {
     .places-img {
         width: 200px;
         height: 200px;
-
         border-radius: 20px;
 
     }
@@ -305,7 +317,6 @@ body {
 
     .placename {
         font-size: 20px;
-
         color: rgb(13, 25, 13);
     }
 
@@ -330,15 +341,104 @@ body {
         display: flex;
         flex-direction: column;
     }
-
-
+    .why-traveltext{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .marathi-quotes {
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 500; 
+    }
+    .heading-why {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    .why-travel-img {
+        height: 250px;
+        width: 350px;
+        border-radius: 10px;
+        z-index: 50;
+    }
 
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    .search {}
+   
+
+    .text {
+
+        text-align: center;
+        color: rgb(249, 195, 0);
+        font-size: 45px;
+    }
+    .subtext {
+        margin-top: 10px;
+        font-size: 25px;
+        color: #f5d314;
+        margin-left: 120px; 
+    }
+    .searchbar {
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 5px;
+        width: 400px;
+        margin-left: 200px; 
+        border-radius: 10px;
+    }
+    .container-home-places {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 220px;
+        /* align-items: center; */
+        flex-wrap: wrap;
+       
+    
+    }
+    .home-place {
+        width: 100px;
+        height: 100px;
+       
+      
+    }
+    .home-place-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        padding: 3px;
+        box-shadow: 0px 0px 5px 1px rgb(40, 39, 39);
+        /* align-items: center; */
+    }
+
+    .famous-place {
+        height: 600px;
+        background-color: aqua;
+    }
+    .place-card {
+        width: 260px;
+    }
+
+    .footer{
+        font-size: 20px;
+        background-color: black;
+        width: 100%;
+      justify-content: space-around;
+        color: white;
+        display: flex;
+        flex-direction: row;
+       /* padding: 20px; */
+       flex-wrap: wrap;
+       
+    }
+    .footer1{
+        height: 300px;
+        width: 300px;
+       margin-top: 15px;
+       margin:20px ;
+    
+    
+    }
+    
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-    .search {}
-}

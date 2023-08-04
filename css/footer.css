@@ -1,6 +1,7 @@
 .footer{
     font-size: 20px;
-    background-color: black;
+    background-image: url("./../img/exploreimg/footer1.jpg");
+    /* background-color: black; */
     width: 100%;
   justify-content: space-between;
     color: white;
@@ -8,8 +9,9 @@
     flex-direction: row;
    padding: 10px;
    flex-wrap: wrap;
-   height: 350px;
-    
+   background-repeat: no-repeat;
+   background-size: cover;
+   
 }
 .footer1{
     height: 300px;
