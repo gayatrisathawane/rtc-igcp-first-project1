@@ -20,10 +20,13 @@ In this project, we added famous places **City-Wise** with location also we adde
 
 **Real Life Use:**
 Using this websites the tourism get to know about the specific place information.
-
-**Future scope:**
+ 
 
 
 ## Contributors
 
-!['Contributors'](https://github.com/gayatrisathawane/rtc-igcp-first-project1/graphs/contributors)
+<a href="https://github.com/gayatrisathawane/rtc-igcp-first-project1/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gayatrisathawane/rtc-igcp-first-project1" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
