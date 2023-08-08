@@ -11,14 +11,14 @@
 **Famous Places in Pune**
 ![output-3](./img/images/famousplacespune.png)
 
-**Use Of Project**
+### Use Of Project
 This is Dream Destination I developed this project because it is helpful for tourism to search famous places in maharashtra for  visit.
 
-**Description**
+### Description
 I developed this project using the **HTML** & **CSS**.
 In this project, we added famous places **City-Wise** with location also we added hotels for staying with location.
 
-**Real Life Use:**
+### Real Life Use:
 Using this websites the tourism get to know about the specific place information.
  
 
